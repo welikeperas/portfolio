@@ -1,0 +1,17 @@
+/* your styles go here */
+
+.box-masonry-text h4 {
+    margin-bottom: 0;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.owl-nav button {
+    min-width: 2rem;
+}
+
+.owl-nav button span {
+    font-size: 2.5rem;
+}
