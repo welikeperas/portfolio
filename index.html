@@ -265,7 +265,25 @@
         </div>
 
         <div id="app">
-            <app></app>
+            <app>
+                <sidebar>
+                    <sidebar-menu></sidebar-menu>
+                    <social></social>
+                    <copyright></copyright>
+                </sidebar>
+                <portfolios>
+                    <template v-slot:navbar>
+                        <navbar></navbar>
+                    </template>
+                    <template v-slot:grid-item>
+                        <grid-items
+                            v-for="web in projects"
+                            v-bind:key="web.id"
+                            v-bind:web="web"
+                        ></grid-items>
+                    </template>
+                </portfolios>
+            </app>
         </div>
 
         <!-- JavaScript files-->

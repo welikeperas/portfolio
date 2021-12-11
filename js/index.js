@@ -2,8 +2,7 @@ Vue.component("app", {
     template: `
     <div class="container-fluid">
         <div class="row row-offcanvas row-offcanvas-left">
-            <sidebar></sidebar>
-            <portfolios></portfolios>
+            <slot></slot>
         </div>
     </div>
     `,
@@ -14,11 +13,9 @@ Vue.component("sidebar", {
     <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
         <div class="sidebar-content">
             <h1 class="sidebar-heading">
-                <a href="index.html">Creative</a>
+                <a href="index.html">We Like Peras</a>
             </h1>
-            <sidebarMenu></sidebarMenu>
-            <social></social>
-            <copyright></copyright>
+            <slot></slot>
         </div>
     </div>
     `,
@@ -63,7 +60,7 @@ Vue.component("copyright", {
     template: `
     <div class="copyright text-center text-md-left">
         <p class="credit">
-            &copy;2018 We Like Peras | Template by
+            &copy;2022 We Like Peras | Template by
             <a
                 href="http://bootstrapious.com/portfolio-themes"
                 class="external"
@@ -78,13 +75,9 @@ Vue.component("copyright", {
 Vue.component("portfolios", {
     template: `
     <div class="col-md-8 col-lg-9 content-column">
-        <navbar></navbar>
+        <slot name="navbar"></slot>
         <div class="grid row">
-            <gridItems
-                v-for="web in projects"
-                v-bind:key="web.id"
-                v-bind:web="web"
-            ></gridItems>
+            <slot name="grid-item"></slot>
         </div>
     </div>
     `,
@@ -158,17 +151,59 @@ let data = function () {
         projects: [
             {
                 id: 1,
-                title: "tuamigapsicologa",
+                title: "Tu Amiga Psicologa",
                 description: "",
                 href: "./pages/details-nomina360.html",
-                img: "./img/tuamigapsicologa/image1.png",
+                img: "./img/tuamigapsicologa/image1.jpg",
             },
             {
-                id: 1,
+                id: 2,
                 title: "Chronus",
                 description: "",
                 href: "./pages/details-nomina360.html",
-                img: "./img/chronus/image1.png",
+                img: "./img/chronus/image1.jpg",
+            },
+            {
+                id: 3,
+                title: "911 Formulario",
+                description: "",
+                href: "./pages/details-nomina360.html",
+                img: "./img/911/image1.jpg",
+            },
+            {
+                id: 4,
+                title: "Alitura",
+                description: "",
+                href: "./pages/details-nomina360.html",
+                img: "./img/alitura/image1.jpg",
+            },
+            {
+                id: 5,
+                title: "So Ferrara",
+                description: "",
+                href: "./pages/details-nomina360.html",
+                img: "./img/soferrara/image1.jpg",
+            },
+            {
+                id: 6,
+                title: "Frimarine",
+                description: "",
+                href: "./pages/details-nomina360.html",
+                img: "./img/frimarine/image1.jpg",
+            },
+            {
+                id: 7,
+                title: "SrCrabs",
+                description: "",
+                href: "./pages/details-nomina360.html",
+                img: "./img/srcrabs/image1.jpg",
+            },
+            {
+                id: 8,
+                title: "Cumbre Internacional de Negocios",
+                description: "",
+                href: "./pages/details-nomina360.html",
+                img: "./img/cumineg/image1.jpg",
             },
         ],
     };
