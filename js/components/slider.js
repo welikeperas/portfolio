@@ -4,9 +4,9 @@ export default {
             type: Array,
             default: () => {
                 return [
-                    "../img/tuamigapsicologa/image1.jpg",
-                    "../img/chronus/image1.jpg",
-                    "../img/911/image1.jpg",
+                    "./img/tuamigapsicologa/image1.jpg",
+                    "./img/chronus/image1.jpg",
+                    "./img/911/image1.jpg",
                 ];
             },
         },
