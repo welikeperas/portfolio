@@ -5,6 +5,7 @@ export default {
             type="button"
             data-toggle="offcanvas"
             class="btn btn-outline-primary"
+            v-on:click="toggle"
         >
             <i class="fa fa-align-left mr-2"></i>Menu
         </button>
@@ -13,4 +14,9 @@ export default {
         </h1>
     </div>
     `,
+    methods: {
+        toggle: function () {
+            $(".row-offcanvas").toggleClass("active");
+        },
+    },
 };
