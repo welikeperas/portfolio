@@ -5,7 +5,7 @@
             "title": "Tu Amiga Psicologa",
             "short-description": "Un corta descripción",
             "href": "/works/0",
-            "img": "../img/tuamigapsicologa/image1.jpg",
+            "img": "./img/tuamigapsicologa/image1.jpg",
             "imagesArray": [],
             "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
@@ -14,7 +14,7 @@
             "title": "Chronus",
             "short-description": "Un corta descripción",
             "href": "/works/1",
-            "img": "../img/chronus/image1.jpg",
+            "img": "./img/chronus/image1.jpg",
             "imagesArray": [],
             "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
@@ -23,7 +23,7 @@
             "title": "911 Formulario",
             "short-description": "Un corta descripción",
             "href": "/works/2",
-            "img": "../img/911/image1.jpg",
+            "img": "./img/911/image1.jpg",
             "imagesArray": [],
             "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
@@ -32,7 +32,7 @@
             "title": "Alitura",
             "short-description": "Un corta descripción",
             "href": "/works/3",
-            "img": "../img/alitura/image1.jpg",
+            "img": "./img/alitura/image1.jpg",
             "imagesArray": [],
             "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
@@ -41,7 +41,7 @@
             "title": "So Ferrara",
             "short-description": "Un corta descripción",
             "href": "/works/4",
-            "img": "../img/soferrara/image1.jpg",
+            "img": "./img/soferrara/image1.jpg",
             "imagesArray": [],
             "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
@@ -50,7 +50,7 @@
             "title": "Frimarine",
             "short-description": "Un corta descripción",
             "href": "/works/5",
-            "img": "../img/frimarine/image1.jpg",
+            "img": "./img/frimarine/image1.jpg",
             "imagesArray": [],
             "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
@@ -59,7 +59,7 @@
             "title": "SrCrabs",
             "short-description": "Un corta descripción",
             "href": "/works/6",
-            "img": "../img/srcrabs/image1.jpg",
+            "img": "./img/srcrabs/image1.jpg",
             "imagesArray": [],
             "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
@@ -68,7 +68,7 @@
             "title": "Cumbre Internacional de Negocios",
             "short-description": "Un corta descripción",
             "href": "/works/7",
-            "img": "../img/cumineg/image1.jpg",
+            "img": "./img/cumineg/image1.jpg",
             "imagesArray": [],
             "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         }
