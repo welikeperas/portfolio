@@ -30,6 +30,7 @@ export default {
                 <h4>
                     <router-link
                         :to="web.href"
+                        translate="no"
                         >{{web.title}}</router-link
                     >
                 </h4>

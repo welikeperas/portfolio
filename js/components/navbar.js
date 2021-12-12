@@ -10,7 +10,7 @@ export default {
             <i class="fa fa-align-left mr-2"></i>Menu
         </button>
         <h1 class="small-navbar-heading">
-            <router-link to="/">We Like Peras</router-link>
+            <router-link to="/" translate="no">We Like Peras</router-link>
         </h1>
     </div>
     `,

@@ -7,7 +7,7 @@ export default {
     <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
         <div class="sidebar-content">
             <h1 class="sidebar-heading">
-                <router-link to="/">We Like Peras</router-link>
+                <router-link to="/" translate="no">We Like Peras</router-link>
             </h1>
             <sidebar-menu></sidebar-menu>
             <social></social>

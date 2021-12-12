@@ -2,7 +2,7 @@ export default {
     template: `
     <div class="copyright text-center text-md-left">
         <p class="credit">
-            &copy;2022 We Like Peras | Template by
+            &copy;2022 <span translate="no">We Like Peras</span>  | Template by
             <a
                 href="http://bootstrapious.com/portfolio-themes"
                 class="external"
