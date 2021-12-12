@@ -19,7 +19,7 @@ export default {
     }),
     methods: {
         addProjectsToData: function () {
-            fetch("../../data/projects.json")
+            fetch("./data/projects.json")
                 .then((projectsJson) => projectsJson.json())
                 .then((projectsObj) => {
                     this.projects.push(...projectsObj.projects);
