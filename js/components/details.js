@@ -38,7 +38,7 @@ export default {
             let workResponse;
 
             try {
-                workResponse = await fetch("../projects.json");
+                workResponse = await fetch("../../data/projects.json");
             } catch (error) {
                 console.log(error);
             }
