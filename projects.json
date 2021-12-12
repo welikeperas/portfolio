@@ -1,60 +1,76 @@
 {
     "projects": [
         {
-            "id": 1,
+            "id": 0,
             "title": "Tu Amiga Psicologa",
-            "description": "",
-            "href": "./pages/details-nomina360.html",
-            "img": "./img/tuamigapsicologa/image1.jpg"
+            "short-description": "Un corta descripción",
+            "href": "/works/0",
+            "img": "../img/tuamigapsicologa/image1.jpg",
+            "imagesArray": [],
+            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
+        },
+        {
+            "id": 1,
+            "title": "Chronus",
+            "short-description": "Un corta descripción",
+            "href": "/works/1",
+            "img": "../img/chronus/image1.jpg",
+            "imagesArray": [],
+            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
         {
             "id": 2,
-            "title": "Chronus",
-            "description": "",
-            "href": "./pages/details-nomina360.html",
-            "img": "./img/chronus/image1.jpg"
+            "title": "911 Formulario",
+            "short-description": "Un corta descripción",
+            "href": "/works/2",
+            "img": "../img/911/image1.jpg",
+            "imagesArray": [],
+            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
         {
             "id": 3,
-            "title": "911 Formulario",
-            "description": "",
-            "href": "./pages/details-nomina360.html",
-            "img": "./img/911/image1.jpg"
+            "title": "Alitura",
+            "short-description": "Un corta descripción",
+            "href": "/works/3",
+            "img": "../img/alitura/image1.jpg",
+            "imagesArray": [],
+            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
         {
             "id": 4,
-            "title": "Alitura",
-            "description": "",
-            "href": "./pages/details-nomina360.html",
-            "img": "./img/alitura/image1.jpg"
+            "title": "So Ferrara",
+            "short-description": "Un corta descripción",
+            "href": "/works/4",
+            "img": "../img/soferrara/image1.jpg",
+            "imagesArray": [],
+            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
         {
             "id": 5,
-            "title": "So Ferrara",
-            "description": "",
-            "href": "./pages/details-nomina360.html",
-            "img": "./img/soferrara/image1.jpg"
+            "title": "Frimarine",
+            "short-description": "Un corta descripción",
+            "href": "/works/5",
+            "img": "../img/frimarine/image1.jpg",
+            "imagesArray": [],
+            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
         {
             "id": 6,
-            "title": "Frimarine",
-            "description": "",
-            "href": "./pages/details-nomina360.html",
-            "img": "./img/frimarine/image1.jpg"
+            "title": "SrCrabs",
+            "short-description": "Un corta descripción",
+            "href": "/works/6",
+            "img": "../img/srcrabs/image1.jpg",
+            "imagesArray": [],
+            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
         {
             "id": 7,
-            "title": "SrCrabs",
-            "description": "",
-            "href": "./pages/details-nomina360.html",
-            "img": "./img/srcrabs/image1.jpg"
-        },
-        {
-            "id": 8,
             "title": "Cumbre Internacional de Negocios",
-            "description": "",
-            "href": "./pages/details-nomina360.html",
-            "img": "./img/cumineg/image1.jpg"
+            "short-description": "Un corta descripción",
+            "href": "/works/7",
+            "img": "../img/cumineg/image1.jpg",
+            "imagesArray": [],
+            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         }
     ]
 }

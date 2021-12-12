@@ -265,25 +265,7 @@
         </div>
 
         <div id="app">
-            <app>
-                <sidebar>
-                    <sidebar-menu></sidebar-menu>
-                    <social></social>
-                    <copyright></copyright>
-                </sidebar>
-                <portfolios>
-                    <template v-slot:navbar>
-                        <navbar></navbar>
-                    </template>
-                    <template v-slot:grid-item>
-                        <grid-items
-                            v-for="web in projects"
-                            v-bind:key="web.id"
-                            v-bind:web="web"
-                        ></grid-items>
-                    </template>
-                </portfolios>
-            </app>
+            <router-view></router-view>
         </div>
 
         <!-- JavaScript files-->
@@ -294,7 +276,8 @@
         <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
         <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
         <script src="js/front.js"></script>
-        <script src="js/index.js"></script>
+        <script src="js/index.js" type="module"></script>
     </body>
 </html>
