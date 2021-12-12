@@ -29,4 +29,19 @@ export default {
         </div>
     </div>
     `,
+    computed: {
+        loadImages: function () {
+            $("#main-slider").owlCarousel({
+                items: 1,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayHoverPause: true,
+                nav: true,
+            });
+        },
+    },
+    mounted: function () {
+        this.loadImages;
+    },
 };

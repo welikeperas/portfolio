@@ -23,23 +23,23 @@ $(function () {
     // ------------------------------------------------------ //
     // Main slider
     // ------------------------------------------------------ //
-    $("#main-slider").owlCarousel({
-        items: 1,
-        nav: false,
-        dots: true,
-        autoplay: true,
-        autoplayHoverPause: true,
-        nav: true,
-    });
+    // $("#main-slider").owlCarousel({
+    //     items: 1,
+    //     nav: false,
+    //     dots: true,
+    //     autoplay: true,
+    //     autoplayHoverPause: true,
+    //     nav: true,
+    // });
 
-    $("#second-slider").owlCarousel({
-        items: 3,
-        nav: false,
-        dots: true,
-        autoplay: true,
-        autoplayHoverPause: true,
-        nav: true,
-    });
+    // $("#second-slider").owlCarousel({
+    //     items: 3,
+    //     nav: false,
+    //     dots: true,
+    //     autoplay: true,
+    //     autoplayHoverPause: true,
+    //     nav: true,
+    // });
     // ------------------------------------------------------ //
     // For demo purposes, can be deleted
     // ------------------------------------------------------ //
