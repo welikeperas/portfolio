@@ -146,70 +146,21 @@ Vue.component("gridItems", {
     `,
 });
 
-let data = function () {
-    return {
-        projects: [
-            {
-                id: 1,
-                title: "Tu Amiga Psicologa",
-                description: "",
-                href: "./pages/details-nomina360.html",
-                img: "./img/tuamigapsicologa/image1.jpg",
-            },
-            {
-                id: 2,
-                title: "Chronus",
-                description: "",
-                href: "./pages/details-nomina360.html",
-                img: "./img/chronus/image1.jpg",
-            },
-            {
-                id: 3,
-                title: "911 Formulario",
-                description: "",
-                href: "./pages/details-nomina360.html",
-                img: "./img/911/image1.jpg",
-            },
-            {
-                id: 4,
-                title: "Alitura",
-                description: "",
-                href: "./pages/details-nomina360.html",
-                img: "./img/alitura/image1.jpg",
-            },
-            {
-                id: 5,
-                title: "So Ferrara",
-                description: "",
-                href: "./pages/details-nomina360.html",
-                img: "./img/soferrara/image1.jpg",
-            },
-            {
-                id: 6,
-                title: "Frimarine",
-                description: "",
-                href: "./pages/details-nomina360.html",
-                img: "./img/frimarine/image1.jpg",
-            },
-            {
-                id: 7,
-                title: "SrCrabs",
-                description: "",
-                href: "./pages/details-nomina360.html",
-                img: "./img/srcrabs/image1.jpg",
-            },
-            {
-                id: 8,
-                title: "Cumbre Internacional de Negocios",
-                description: "",
-                href: "./pages/details-nomina360.html",
-                img: "./img/cumineg/image1.jpg",
-            },
-        ],
-    };
-};
-
 let app = new Vue({
     el: "#app",
-    data: data,
+    data: () => ({
+        projects: [],
+    }),
+    methods: {
+        addProjectsToData: function () {
+            fetch("../projects.json")
+                .then((projectsJson) => projectsJson.json())
+                .then((projectsObj) => {
+                    this.projects.push(...projectsObj.projects);
+                });
+        },
+    },
+    created: function () {
+        this.addProjectsToData();
+    },
 });
