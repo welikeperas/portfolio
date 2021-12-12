@@ -24,7 +24,9 @@ export default {
                 .then((projectsObj) => {
                     this.projects.push(...projectsObj.projects);
                 })
-                .catch(err)(console.log(err));
+                .catch((err) => {
+                    console.error(err);
+                });
         },
     },
     created: function () {
