@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 0,
-            "title": "Tu Amiga Psicologa",
+            "title": "Tu Amiga Psicóloga",
             "short-description": "Un corta descripción",
             "href": "/works/0",
             "img": "./img/tuamigapsicologa/image1.jpg",
@@ -56,7 +56,7 @@
         },
         {
             "id": 6,
-            "title": "SrCrabs",
+            "title": "Sr Crabs",
             "short-description": "Un corta descripción",
             "href": "/works/6",
             "img": "./img/srcrabs/image1.jpg",
