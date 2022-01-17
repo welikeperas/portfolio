@@ -12,36 +12,32 @@ export default {
         },
     },
     template: `
-    <div
-        id="main-slider"
-        class="owl-carousel owl-theme"
-    >
-        <div 
-            class="item"
-            v-for="image in images"    
-        >
-        
-            <img
-                v-bind:src="image"
-                alt=""
-                class="img-fluid"
-            />
-        </div>
+    <div class="col-lg-12 project-images">
+        <a v-for="(img, index) in images" :key="index" :href="img" class="glightbox is-loading">
+            <img class="img-fluid mb-4" :src="img" />
+            <!-- Loading spinner -->
+            <!-- <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            </div> -->
+            <!-- End of Loading spinner -->
+        </a>
     </div>
     `,
-    computed: {
-        loadImages: function () {
-            $("#main-slider").owlCarousel({
-                items: 1,
-                nav: false,
-                dots: true,
-                autoplay: true,
-                autoplayHoverPause: true,
-                nav: true,
-            });
-        },
-    },
     mounted: function () {
-        this.loadImages;
+        const lightbox = GLightbox();
+    },
+    updated: function () {
+        const lightbox = GLightbox();
     },
 };

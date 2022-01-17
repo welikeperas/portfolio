@@ -12,7 +12,7 @@ export default {
                     <p class="lead">
                         {{info.description}}
                     </p>
-                    <slider v-bind:images="info.img"></slider>
+                    <slider v-bind:images="info.imagesArray"></slider>
                     
                 </div>
             </div>
