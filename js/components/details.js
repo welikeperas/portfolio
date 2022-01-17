@@ -76,9 +76,4 @@ export default {
     created: function () {
         this.updateDetailsData();
     },
-    watch: {
-        $route(to, from) {
-            console.log("pis");
-        },
-    },
 };
