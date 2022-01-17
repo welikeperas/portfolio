@@ -9,7 +9,8 @@
             "imagesArray": [
                 "./img/tuamigapsicologa/image1.jpg"
             ],
-            "long-description": "Tu Amiga Psicóloga es una cara amable que busca ayudarte a superar los momentos difíciles dándote herramientas para lidiar con lo que te perturba la cabeza. Tu Amiga Psicóloga lo consigue a través de principios gráficos sencillos combinados con tendencias actuales que lo hacen fresco y fácil de entender."
+            "long-description": "Tu Amiga Psicóloga es una cara amable que busca ayudarte a superar los momentos difíciles dándote herramientas para lidiar con lo que te perturba la cabeza. Tu Amiga Psicóloga lo consigue a través de principios gráficos sencillos combinados con tendencias actuales que lo hacen fresco y fácil de entender.",
+            "web-link": "https://tuamigapsicologa.com/"
         },
         {
             "id": 1,
@@ -18,7 +19,8 @@
             "href": "/works/1",
             "img": "./img/chronus/thumbnail.jpg",
             "imagesArray": [],
-            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
+            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí",
+            "web-link": "https://chronusoil.com/"
         },
         {
             "id": 2,
@@ -29,7 +31,8 @@
             "imagesArray": [
                 "./img/911/image1.jpg"
             ],
-            "long-description": "Un formulario desarrollado para la optimización del flujo de trabajo de la empresa 911 Smartphones. Este logra automatizar como los clientes obtienen información de precios de algunos de los productos disponibles en la tienda."
+            "long-description": "Un formulario desarrollado para la optimización del flujo de trabajo de la empresa 911 Smartphones. Este logra automatizar como los clientes obtienen información de precios de algunos de los productos disponibles en la tienda.",
+            "web-link": "https://form.911smartphones.com/"
         },
         {
             "id": 3,
@@ -40,7 +43,8 @@
             "imagesArray": [
                 "./img/alitura/image1.jpg"
             ],
-            "long-description": "Alitura.dk es un e-commerce desarrollado teniendo en cuenta tanto la funcionalidad como el estilo. Además puede visualizarse en tres idiomas distintos: danes, inglés y español."
+            "long-description": "Alitura.dk es un e-commerce desarrollado teniendo en cuenta tanto la funcionalidad como el estilo. Además puede visualizarse en tres idiomas distintos: danes, inglés y español.",
+            "web-link": "https://alitura.dk/"
         },
         {
             "id": 4,
@@ -51,7 +55,8 @@
             "imagesArray": [
                 "./img/soferrara/image1.jpg"
             ],
-            "long-description": "La nueva línea de lujo de Ferrara para el público millennial 'So Ferrara', mezcla la simplicidad y la limpieza del minimalismo con una forma expresiva y brutalista de comunicar, desafiando al espectador a expresarse creativamente a través de los espacios de su hogar."
+            "long-description": "La nueva línea de lujo de Ferrara para el público millennial 'So Ferrara', mezcla la simplicidad y la limpieza del minimalismo con una forma expresiva y brutalista de comunicar, desafiando al espectador a expresarse creativamente a través de los espacios de su hogar.",
+            "web-link": ""
         },
         {
             "id": 5,
@@ -62,18 +67,20 @@
             "imagesArray": [
                 "./img/frimarine/image1.jpg"
             ],
-            "long-description": "Frimarine es un E-commerce donde las personas podrán comprar su lancha o yate de en sueños, o retantarlo para un fin de semana inolvidable. Frimarine también ofrece productos de pesca y repuestos para tu lancha."
+            "long-description": "Frimarine es un E-commerce donde las personas podrán comprar su lancha o yate de en sueños, o retantarlo para un fin de semana inolvidable. Frimarine también ofrece productos de pesca y repuestos para tu lancha.",
+            "web-link": "https://frimarine.com/"
         },
         {
             "id": 6,
             "title": "Sr Crabs",
-            "short-description": "Imagen digital del restaurante Señor Crabs",
+            "short-description": "Sitio Web del restaurante Señor Crabs",
             "href": "/works/6",
             "img": "./img/srcrabs/thumbnail.jpg",
             "imagesArray": [
                 "./img/srcrabs/image1.jpg"
             ],
-            "long-description": "En SrCrabs.com podrás ver y conocer como es el establecimiento del lujoso restaurante Señor Crabs en Tucacas. Además podrás descubrir los deliciosos platillos que sirven en la sección de menu. Sin olvidar que puedes solicitar una reservación ingresando tu información en el formulario de reserva."
+            "long-description": "En SrCrabs.com podrás ver y conocer como es el establecimiento del lujoso restaurante Señor Crabs en Tucacas. Además podrás descubrir los deliciosos platillos que sirven en la sección de menu. Sin olvidar que puedes solicitar una reservación ingresando tu información en el formulario de reserva.",
+            "web-link": "https://srcrabs.com/"
         },
         {
             "id": 7,
@@ -84,7 +91,8 @@
             "imagesArray": [
                 "./img/cumineg/image1.jpg"
             ],
-            "long-description": "CUMINEG es el evento donde los más grandes del marketing, el liderazgo, el espíritu empresarial, la creatividad y las ventas te cuentan todos sus secretos. En años anteriores, CUMINEG se dirigía principalmente a un público de mayor edad, pero con la pandemia de COVID-19 tenía que cambiar. Reunió a líderes más jóvenes y se convirtió en lo que es hoy: el lugar donde se reúnen las ideas brillantes."
+            "long-description": "CUMINEG es el evento donde los más grandes del marketing, el liderazgo, el espíritu empresarial, la creatividad y las ventas te cuentan todos sus secretos. En años anteriores, CUMINEG se dirigía principalmente a un público de mayor edad, pero con la pandemia de COVID-19 tenía que cambiar. Reunió a líderes más jóvenes y se convirtió en lo que es hoy: el lugar donde se reúnen las ideas brillantes.",
+            "web-link": "https://cumineg.com/"
         }
     ]
 }

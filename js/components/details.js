@@ -9,9 +9,8 @@ export default {
             <div class="col-xl-10">
                 <div class="content-column-content">
                     <h1>{{info.title}}</h1>
-                    <p class="lead">
-                        {{info.description}}
-                    </p>
+                    <p class="lead" v-html="info.description"></p>
+                    <a v-if="validateLink" :href="info.web_link" target="blank" class="btn btn-primary rounded mb-5">Visitar Sitio</a>
                     <slider v-bind:images="info.imagesArray"></slider>
                     
                 </div>
@@ -29,6 +28,7 @@ export default {
             title: "",
             description: "",
             imagesArray: [],
+            web_link: "",
         },
     }),
     methods: {
@@ -58,12 +58,19 @@ export default {
                 title,
                 "long-description": description,
                 imagesArray,
+                "web-link": link,
             } = await this.fetchDetailsData();
 
             this.info.id = id;
             this.info.title = title;
             this.info.description = description;
             this.info.imagesArray = imagesArray;
+            this.info.web_link = link;
+        },
+    },
+    computed: {
+        validateLink() {
+            return this.info.web_link !== "";
         },
     },
     created: function () {
