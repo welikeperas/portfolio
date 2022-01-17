@@ -3,13 +3,13 @@
         {
             "id": 0,
             "title": "Tu Amiga Psicóloga",
-            "short-description": "Un corta descripción",
+            "short-description": "Imágenes vibrantes y amables para ayudar a la salud mental",
             "href": "/works/0",
             "img": "./img/tuamigapsicologa/thumbnail.jpg",
             "imagesArray": [
                 "./img/tuamigapsicologa/image1.jpg"
             ],
-            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
+            "long-description": "Tu Amiga Psicóloga es una cara amable que busca ayudarte a superar los momentos difíciles dándote herramientas para lidiar con lo que te perturba la cabeza. Tu Amiga Psicóloga lo consigue a través de principios gráficos sencillos combinados con tendencias actuales que lo hacen fresco y fácil de entender."
         },
         {
             "id": 1,
@@ -23,68 +23,68 @@
         {
             "id": 2,
             "title": "911 Formulario",
-            "short-description": "Un corta descripción",
+            "short-description": "Formulario de cotización para 911 Smartphones",
             "href": "/works/2",
             "img": "./img/911/thumbnail.jpg",
             "imagesArray": [
                 "./img/911/image1.jpg"
             ],
-            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
+            "long-description": "Un formulario desarrollado para la optimización del flujo de trabajo de la empresa 911 Smartphones. Este logra automatizar como los clientes obtienen información de precios de algunos de los productos disponibles en la tienda."
         },
         {
             "id": 3,
             "title": "Alitura",
-            "short-description": "Un corta descripción",
+            "short-description": "E-commerce de comida organica en Dinamarca",
             "href": "/works/3",
             "img": "./img/alitura/thumbnail.jpg",
             "imagesArray": [
                 "./img/alitura/image1.jpg"
             ],
-            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
+            "long-description": "Alitura.dk es un e-commerce desarrollado teniendo en cuenta tanto la funcionalidad como el estilo. Además puede visualizarse en tres idiomas distintos: danes, inglés y español."
         },
         {
             "id": 4,
             "title": "So Ferrara",
-            "short-description": "Un corta descripción",
+            "short-description": "Una marca de decoración del hogar para los millennials excéntricos y expresivos.",
             "href": "/works/4",
             "img": "./img/soferrara/thumbnail.jpg",
             "imagesArray": [
                 "./img/soferrara/image1.jpg"
             ],
-            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
+            "long-description": "La nueva línea de lujo de Ferrara para el público millennial 'So Ferrara', mezcla la simplicidad y la limpieza del minimalismo con una forma expresiva y brutalista de comunicar, desafiando al espectador a expresarse creativamente a través de los espacios de su hogar."
         },
         {
             "id": 5,
             "title": "Frimarine",
-            "short-description": "Un corta descripción",
+            "short-description": "E-commerce para alquiler y compra de lanchas",
             "href": "/works/5",
             "img": "./img/frimarine/thumbnail.jpg",
             "imagesArray": [
                 "./img/frimarine/image1.jpg"
             ],
-            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
+            "long-description": "Frimarine es un E-commerce donde las personas podrán comprar su lancha o yate de en sueños, o retantarlo para un fin de semana inolvidable. Frimarine también ofrece productos de pesca y repuestos para tu lancha."
         },
         {
             "id": 6,
             "title": "Sr Crabs",
-            "short-description": "Un corta descripción",
+            "short-description": "Imagen digital del restaurante Señor Crabs",
             "href": "/works/6",
             "img": "./img/srcrabs/thumbnail.jpg",
             "imagesArray": [
                 "./img/srcrabs/image1.jpg"
             ],
-            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
+            "long-description": "En SrCrabs.com podrás ver y conocer como es el establecimiento del lujoso restaurante Señor Crabs en Tucacas. Además podrás descubrir los deliciosos platillos que sirven en la sección de menu. Sin olvidar que puedes solicitar una reservación ingresando tu información en el formulario de reserva."
         },
         {
             "id": 7,
             "title": "Cumbre Internacional de Negocios",
-            "short-description": "Un corta descripción",
+            "short-description": "Conocimientos para el público más joven",
             "href": "/works/7",
             "img": "./img/cumineg/thumbnail.jpg",
             "imagesArray": [
                 "./img/cumineg/image1.jpg"
             ],
-            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
+            "long-description": "CUMINEG es el evento donde los más grandes del marketing, el liderazgo, el espíritu empresarial, la creatividad y las ventas te cuentan todos sus secretos. En años anteriores, CUMINEG se dirigía principalmente a un público de mayor edad, pero con la pandemia de COVID-19 tenía que cambiar. Reunió a líderes más jóvenes y se convirtió en lo que es hoy: el lugar donde se reúnen las ideas brillantes."
         }
     ]
 }
