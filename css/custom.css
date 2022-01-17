@@ -37,3 +37,7 @@
 .fade-enter-to {
     opacity: 1;
 }
+
+.project-images img {
+    box-shadow: 1px 1px 25px 5px #929292;
+}
