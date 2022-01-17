@@ -27,7 +27,7 @@
             "href": "/works/2",
             "img": "./img/911/thumbnail.jpg",
             "imagesArray": [
-                "./img/911/image1.png"
+                "./img/911/image1.jpg"
             ],
             "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí"
         },
