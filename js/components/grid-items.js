@@ -43,4 +43,19 @@ export default {
         </div>
     </div>
     `,
+    methods: {
+        masonryEffect() {
+            $(".grid").masonry({
+                itemSelector: ".grid-item",
+                columnWidth: 0,
+                horizontalOrder: true,
+            });
+        },
+    },
+    mounted() {
+        this.masonryEffect();
+    },
+    updated() {
+        this.masonryEffect();
+    },
 };
