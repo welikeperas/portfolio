@@ -20,4 +20,16 @@ export default {
         social,
         copyright,
     },
+    methods: {
+        toggle: function () {
+            if ($(".row-offcanvas").hasClass("active")) {
+                $(".row-offcanvas").toggleClass("active");
+            }
+        },
+    },
+    watch: {
+        $route(to, from) {
+            this.toggle();
+        },
+    },
 };
