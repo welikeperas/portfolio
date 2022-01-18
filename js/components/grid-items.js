@@ -44,18 +44,26 @@ export default {
     </div>
     `,
     methods: {
-        masonryEffect() {
-            $(".grid").masonry({
-                itemSelector: ".grid-item",
-                columnWidth: 0,
-                horizontalOrder: true,
-            });
+        masonryEffect(reload = false) {
+            const $grid = $(".grid");
+            if (!reload) {
+                $grid.masonry({
+                    itemSelector: ".grid-item",
+                    columnWidth: 0,
+                    horizontalOrder: true,
+                });
+                $grid.imagesLoaded().progress(function () {
+                    $grid.masonry("layout");
+                });
+            } else {
+                $grid.masonry("reloadItems");
+            }
         },
     },
     mounted() {
         this.masonryEffect();
     },
     updated() {
-        this.masonryEffect();
+        this.masonryEffect(true);
     },
 };

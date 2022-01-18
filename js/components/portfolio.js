@@ -2,9 +2,10 @@ import navbar from "../components/navbar.js";
 import gridItems from "../components/grid-items.js";
 
 export default {
+    components: { navbar, gridItems },
     template: `
     <div class="col-md-8 col-lg-9 content-column">
-        <navbar></navbar>
+    <navbar></navbar>
         <div class="grid row">
             <grid-items
                 v-for="web in projects"
@@ -32,5 +33,4 @@ export default {
     created: function () {
         this.addProjectsToData();
     },
-    components: { navbar, gridItems },
 };
