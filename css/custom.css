@@ -4,6 +4,10 @@
     margin-bottom: 0;
 }
 
+.box-masonry .box-masonry-image {
+    min-height: auto;
+}
+
 .owl-nav {
     display: flex;
     justify-content: space-evenly;
