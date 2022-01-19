@@ -34,10 +34,27 @@ export default {
         </a>
     </div>
     `,
+    data() {
+        return {
+            lightbox: {},
+        };
+    },
     mounted: function () {
-        const lightbox = GLightbox();
+        this.addGLightbox();
     },
     updated: function () {
-        const lightbox = GLightbox();
+        this.addGLightbox();
+    },
+    destroyed() {
+        if (document.body.classList.contains("glightbox-open")) {
+            this.lightbox.close();
+        }
+    },
+    methods: {
+        addGLightbox() {
+            this.lightbox = GLightbox({
+                zoomable: false,
+            });
+        },
     },
 };
