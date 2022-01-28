@@ -15,11 +15,13 @@
         {
             "id": 1,
             "title": "Chronus",
-            "short-description": "Un corta descripción",
+            "short-description": "Sitio web de la nueva generación en lubricantes",
             "href": "/works/1",
             "img": "./img/chronus/thumbnail.jpg",
-            "imagesArray": [],
-            "long-description": "Una breve descripción sobre el proyecto debe ser insertada aquí",
+            "imagesArray": [
+                "./img/chronus/image1.jpg"
+            ],
+            "long-description": "Home diseñado y desarrollado con el objetivo de ser interactivo y llamativo sin comprometer la accesibilidad de la información con un menú fijo que mantiene el elemento principal de la marca presente en la navegación.",
             "web-link": "https://chronusoil.com/"
         },
         {
